@@ -19,4 +19,4 @@ mysql-passive	IN	A	10.240.160.80;
 ;MySql is the record were the application nodes will be pointed to
 ;which can be change due to an outage or a maintanance window
 
-mysql		IN	CNAME	mysql-active.kitchenseeker.com.
+MySQL		IN	CNAME	mysql-passive.kitchenseeker.com.
