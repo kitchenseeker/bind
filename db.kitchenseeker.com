@@ -5,7 +5,7 @@
 ;
 $TTL    55	
 @	IN	SOA	kitchenseeker.com. root.kitchenseeker.com. (
-			      2		; Serial
+			      3		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -14,7 +14,7 @@ $TTL    55
 @		IN	NS	ns.kitchenseeker.com.
 ns		IN 	A	10.240.69.241;
 mysql-active   	IN	A	10.240.37.202;
-mysql-passive	IN	A	10.240.37.111;
+mysql-passive	IN	A	10.240.160.80;
 
 ;MySql is the record were the application nodes will be pointed to
 ;which can be change due to an outage or a maintanance window
