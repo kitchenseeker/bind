@@ -2,7 +2,7 @@
 
 ***Internal DNS for ComputeEngine instances***
 
-<img src="https://cloud.githubusercontent.com/assets/13706023/9293131/7371c078-4461-11e5-891b-4ece09005a86.png" alt="alt text" style="width:400;height:300">
+<img src="https://cloud.githubusercontent.com/assets/13706023/9293131/7371c078-4461-11e5-891b-4ece09005a86.png" alt="alt text" style="width:200;height:150">
 ** team members: Igor, Akash, Luca
 
 
