@@ -13,8 +13,8 @@ $TTL    55
 ;
 @		IN	NS	ns.kitchenseeker.com.
 ns		IN 	A	10.240.69.241;
-mysql-active   	IN	A	10.240.37.202;
-mysql-passive	IN	A	10.240.160.80;
+mysql-active   	IN	A	10.240.156.169;
+mysql-passive	IN	A	10.240.5.88;
 
 ;MySql is the record were the application nodes will be pointed to
 ;which can be change due to an outage or a maintanance window
