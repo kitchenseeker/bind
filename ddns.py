@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# Author: Gian Luca Fiasco
+# email gifasco88@gmail.com
 import keyring
 from keyring.backend import *
 import sys

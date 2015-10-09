@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author: Gian Luca Fiasco
+# email gifasco88@gmail.com
 US=$(gcloud compute forwarding-rules list passive-http | awk 'NR==2 {print $2}' )
 ASIA=$(gcloud compute forwarding-rules list active-http | awk 'NR==2 {print $2}' )
 SWITCH=$(sed -ne 's/.*mysql-\(.*\).kitchenseeker.com./\1/p' /etc/bind/db.kitchenseeker.com)
